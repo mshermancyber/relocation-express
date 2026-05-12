@@ -1,0 +1,24 @@
+{
+  "name": "relocation-express",
+  "version": "1.0.0",
+  "description": "Relocation Express — AI-powered job relocation financial analysis platform",
+  "type": "module",
+  "scripts": {
+    "dev":     "node server.js",
+    "build":   "vite build",
+    "preview": "vite preview",
+    "vite":    "vite"
+  },
+  "dependencies": {
+    "dotenv":              "^16.4.5",
+    "express":             "^4.19.2",
+    "http-proxy-middleware":"^3.0.2",
+    "jspdf":               "^2.5.1",
+    "react":               "^18.3.1",
+    "react-dom":           "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite":                 "^5.4.1"
+  }
+}
